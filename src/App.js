@@ -47,8 +47,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>VoteChain by Vino 🗳️</h1>
-      <p>Built by S Vino – decentralized voting made easy</p>
+      <h1>VoteChain by Vino </h1>
+      <p>Built by S Vinodhini – decentralized voting made easy</p>
 
       <div className="candidates">
         {candidates.map((c, i) => (
@@ -62,7 +62,7 @@ function App() {
 
       <button onClick={castVote} disabled={!votingActive}>Vote Now</button>
       <button onClick={endVoting} disabled={!votingActive}>End Voting</button>
-      <footer>© 2025 | Built by <strong>S Vino</strong> 💜</footer>
+      <footer>© 2025 | Built by <strong>S Vino</strong></footer>
     </div>
   );
 }
